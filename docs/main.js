@@ -1,4 +1,6 @@
-onload = () => {};
+onload = () => {
+  addRow();
+};
 
 function addRow() {
   tr = document.createElement("tr");

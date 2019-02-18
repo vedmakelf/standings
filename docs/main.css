@@ -1,3 +1,6 @@
+body {
+  background-image: url("../docs/flag-2027537_960_720.png");
+}
 main {
   display: flex;
   flex-direction: column;
@@ -7,6 +10,26 @@ main {
 
 table {
   width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.527);
+}
+
+table tr:nth-child(3) {
+  background-color: rgba(255, 255, 0, 0.527);
+}
+table tr:nth-child(4) {
+  background-color: rgba(223, 223, 223, 0.527);
+}
+
+table tr:nth-child(5) {
+  background-color: rgba(255, 166, 0, 0.527);
+}
+
+#headline {
+  font-size: 1.7em;
+  font-weight: bold;
 }
 
 #after {
