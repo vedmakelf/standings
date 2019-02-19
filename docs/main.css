@@ -1,4 +1,5 @@
 body {
+  min-width: 370px;
   background-image: url("flag-2027537_960_720.png");
 }
 main {
@@ -16,14 +17,14 @@ table {
   background-color: rgba(255, 255, 255, 0.527);
 }
 
-table tr:nth-child(3) {
+#standingsTB tr:nth-child(1) {
   background-color: rgba(255, 255, 0, 0.527);
 }
-table tr:nth-child(4) {
-  background-color: rgba(223, 223, 223, 0.527);
+#standingsTB tr:nth-child(2) {
+  background-color: rgba(121, 121, 121, 0.527);
 }
 
-table tr:nth-child(5) {
+#standingsTB tr:nth-child(3) {
   background-color: rgba(255, 166, 0, 0.527);
 }
 
@@ -33,6 +34,7 @@ table tr:nth-child(5) {
 }
 
 #after {
+  color: yellow;
   font-size: 3em;
   font-weight: bold;
   text-align: center;
